@@ -1,0 +1,28 @@
+# Ningún secreto entra al repositorio.
+
+# .NET
+bin/
+obj/
+.vs/
+*.user
+
+# SQLite local (la crea la API al iniciar)
+*.db
+*.db-shm
+*.db-wal
+
+# Node / Vite
+node_modules/
+dist/
+*.local
+
+# Variables de entorno: solo se versiona .env.example
+.env
+.env.*
+!.env.example
+
+# Editores / SO
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
